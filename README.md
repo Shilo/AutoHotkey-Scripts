@@ -13,3 +13,7 @@ Various useful AutoHotkey scripts and applications.
 [![DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.ico)](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
 [DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
 > Run the application to disable mouse side buttons.
+
+[![AutoClicker](AutoClicker/AutoClicker.ico)](AutoClicker/AutoClicker.exe)  
+[AutoClicker](AutoClicker/AutoClicker.exe)  
+> Press Ctrl+` to toggle automatic clicking of left mouse button.
