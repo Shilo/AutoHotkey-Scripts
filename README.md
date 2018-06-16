@@ -8,4 +8,8 @@ Various useful AutoHotkey scripts and applications.
   
 [![DisableEscKey](DisableEscKey/DisableEscKey.ico)](DisableEscKey/DisableEscKey.exe)  
 [DisableEscKey](DisableEscKey/DisableEscKey.exe)  
-> Run the application to disable escape key.
+> Run the application to disable escape key.  
+  
+[![DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.ico)](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
+[DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
+> Run the application to disable mouse side buttons.
