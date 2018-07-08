@@ -2,30 +2,30 @@
 Various useful AutoHotkey scripts and applications.  
   
 ## Applications
-[![AutoClicker](AutoClicker/AutoClicker.ico =128x128)](AutoClicker/AutoClicker.exe)  
+[![AutoClicker](AutoClicker/AutoClicker.ico){:height="128px" width="128px"}](AutoClicker/AutoClicker.exe)  
 [AutoClicker](AutoClicker/AutoClicker.exe)  
 > Press Ctrl+` to toggle automatic clicking of left mouse button.  
   
-[![AutoPresser](AutoPresser/AutoPresser.ico =128x128)](AutoPresser/AutoPresser.exe)  
+[![AutoPresser](AutoPresser/AutoPresser.ico){:height="128px" width="128px"}](AutoPresser/AutoPresser.exe)  
 [AutoPresser](AutoPresser/AutoPresser.exe)  
 > Press a customizable hotkey (default is "Pause/Break" key) to toggle automatic pressing of a customizable set of keys (default is "Space" key).
 > The keys are automated at a specific or random interval (default is 1 second), to an active or specified window (default is the first active window).
 > If unexpected problems arise via the automated key pressing, you can force close the application via a customizable hotkey (default is "Ctrl + Pause/Break" key).
 > Customize and change settings in "AutoPresser.ini" configuration file.
   
-[![DisableEscKey](DisableEscKey/DisableEscKey.ico =128x128)](DisableEscKey/DisableEscKey.exe)  
+[![DisableEscKey](DisableEscKey/DisableEscKey.ico){:height="128px" width="128px"}](DisableEscKey/DisableEscKey.exe)  
 [DisableEscKey](DisableEscKey/DisableEscKey.exe)  
 > Run the application to disable escape key.  
   
-[![DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.ico =128x128)](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
+[![DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.ico){:height="128px" width="128px"}](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
 [DisableMouseSideButtons](DisableMouseSideButtons/DisableMouseSideButtons.exe)  
 > Run the application to disable mouse side buttons.  
   
-[![HideMe](HideMe/HideMe.ico =128x128)](HideMe/HideMe.exe)  
+[![HideMe](HideMe/HideMe.ico){:height="128px" width="128px"}](HideMe/HideMe.exe)  
 [HideMe](HideMe/HideMe.exe)  
 > Press Pause/Break or Win+D to toggle volume and desktop, useful for hiding private video and audio in an instant.  
   
-[![ToggleAlwaysOnTop](ToggleAlwaysOnTop/ToggleAlwaysOnTop.ico =128x128)](ToggleAlwaysOnTop/ToggleAlwaysOnTop.exe)  
+[![ToggleAlwaysOnTop](ToggleAlwaysOnTop/ToggleAlwaysOnTop.ico){:height="128px" width="128px"}](ToggleAlwaysOnTop/ToggleAlwaysOnTop.exe)  
 [ToggleAlwaysOnTop](ToggleAlwaysOnTop/ToggleAlwaysOnTop.exe)  
 > Press Ctrl+Space to toggle "always on top" for active application.  
   
