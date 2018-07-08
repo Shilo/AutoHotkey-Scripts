@@ -6,6 +6,13 @@ Various useful AutoHotkey scripts and applications.
 [AutoClicker](AutoClicker/AutoClicker.exe)  
 > Press Ctrl+` to toggle automatic clicking of left mouse button.  
   
+[![AutoPresser](AutoPresser/AutoPresser.ico)](AutoPresser/AutoPresser.exe)  
+[AutoPresser](AutoPresser/AutoPresser.exe)  
+> Press a customizable hotkey (default is "Pause/Break" key) to toggle automatic pressing of a customizable set of keys (default is "Space" key).
+> The keys are automated at a specific or random interval (default is 1 second), to an active or specified window (default is the first active window).
+> If unexpected problems arise via the automated key pressing, you can force close the application via a customizable hotkey (default is "Ctrl + Pause/Break" key).
+> Customize and change settings in "AutoPresser.ini" configuration file.
+  
 [![DisableEscKey](DisableEscKey/DisableEscKey.ico)](DisableEscKey/DisableEscKey.exe)  
 [DisableEscKey](DisableEscKey/DisableEscKey.exe)  
 > Run the application to disable escape key.  
