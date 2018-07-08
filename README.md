@@ -2,11 +2,12 @@
 Various useful AutoHotkey scripts and applications.  
   
 ## Applications
-[![AutoClicker](AutoClicker/AutoClicker.ico)<!-- .element height="50%" width="50%" -->](AutoClicker/AutoClicker.exe)  
+[![AutoClicker](AutoClicker/AutoClicker.ico)](AutoClicker/AutoClicker.exe)  
 [AutoClicker](AutoClicker/AutoClicker.exe)  
 > Press Ctrl+` to toggle automatic clicking of left mouse button.  
   
 [![AutoPresser](AutoPresser/AutoPresser.ico)](AutoPresser/AutoPresser.exe)  
+<!-- .element height="50%" width="50%" -->
 [AutoPresser](AutoPresser/AutoPresser.exe)  
 > Press a customizable hotkey (default is "Pause/Break" key) to toggle automatic pressing of a customizable set of keys (default is "Space" key).
 > The keys are automated at a specific or random interval (default is 1 second), to an active or specified window (default is the first active window).
