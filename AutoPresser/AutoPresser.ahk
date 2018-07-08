@@ -20,6 +20,11 @@ Activated := false
 ; Read config file.
 SplitPath, A_ScriptName,,,, ScriptName
 
+IfNotExist, %ScriptName%.ini
+{
+    CreateIni(ScriptName)
+}
+
 IniRead, ActivateHotKey, %ScriptName%.ini, General, ActivateHotKey
 IniRead, Keys, %ScriptName%.ini, General, Keys
 IniRead, MinDelay, %ScriptName%.ini, General, MinDelay
@@ -112,4 +117,54 @@ RestoreCursors()
 OnExitHandle(ExitReason, ExitCode)
 {
     RestoreCursors()
+}
+
+CreateIni(fileName)
+{
+    FileAppend, 
+    (
+[General]
+
+; Hotkey to toggle the automatic key pressing on/off. See: https://autohotkey.com/docs/Hotkeys.htm
+ActivateHotKey=Pause Up
+
+; Keys to automatically press when the script is activate. See: https://autohotkey.com/docs/KeyList.htm
+Keys={Space}
+
+; Minimum and maximum delay in milliseconds. The result will be random delay between minimum and maximum. See: https://autohotkey.com/docs/commands/Random.htm
+MinDelay=1000
+MaxDelay=1000
+
+[Advanced]
+
+; Window title to perform the automatic keys. See: https://autohotkey.com/docs/misc/WinTitle.htm
+; If empty, it will send the keys to the CURRENT active window.
+; If "{ACTIVE}", it will send the keys to the FIRST active window.
+; Example with exe: WinTitle=ahk_exe notepad.exe
+; Example with title: WinTitle=Untitled - Notepad
+WinTitle={ACTIVE}
+
+; Cursor type when script is active. If empty, the cursor will not change.
+; Values:
+;    IDC_ARROW
+;    IDC_IBEAM
+;    IDC_WAIT
+;    IDC_CROSS
+;    IDC_UPARROW
+;    IDC_SIZE
+;    IDC_ICON
+;    IDC_SIZENWSE
+;    IDC_SIZENESW
+;    IDC_SIZEWE
+;    IDC_SIZENS
+;    IDC_SIZEALL
+;    IDC_NO
+;    IDC_HAND
+;    IDC_APPSTARTING
+;    IDC_HELP
+CursorType=IDC_HAND
+
+; Hotkey to force exit this application if any problems arise. See: https://autohotkey.com/docs/Hotkeys.htm
+ForceExitHotKey=^CtrlBreak
+    ), %fileName%.ini
 }
