@@ -29,6 +29,10 @@ Various useful AutoHotkey scripts and applications.
 [ToggleAlwaysOnTop](ToggleAlwaysOnTop/ToggleAlwaysOnTop.exe)  
 > Press Ctrl+Space to toggle "always on top" for active application.  
   
+[![TypeClipboard](TypeClipboard/TypeClipboard.ico)](TypeClipboard/TypeClipboard.exe)  
+[TypeClipboard](TypeClipboard/TypeClipboard.exe)  
+> Press Ctrl+Shift+V to automatically type context from the clipboard (via copying), instead of the default paste feature. This is useful for pasting in applications that dont allow default pasting.  
+  
 ## Credit
 Beautiful Flat Icons by Elegantthemes:  
 https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free  
